@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
         width: 300, // Largura da imagem
         height: 400, // Altura da imagem
         marginBottom: 20, // Espaço entre a imagem e o texto
+
     },
     text: {
         marginBottom: 20,  // Espaço entre o texto e o TextInput
@@ -22,5 +23,4 @@ const styles = StyleSheet.create({
         paddingLeft: 10,  // Espaçamento interno
     },
 });
-
-export default styles;
+export default styles; 
