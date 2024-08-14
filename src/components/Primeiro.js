@@ -1,19 +1,16 @@
 import React from "react";
-import { Text, View, TextInput, Image } from "react-native";
+import { View } from "react-native";
 import styles from "./styles.js";
+import CompPadrao, { Comp1, Comp2, Comp3 } from "./Multi.js";
 
 const Ravena = () => {
     const catName = 'Ravena';
     return (
         <View style={styles.container}>
-            <Image
-                source={{ uri: 'https://i.imgur.com/c3wR5Us.jpeg' }}
-                style={styles.image}
-            />
-            <Text style={styles.text}>Essa é {catName}! Diga olá para {catName}!</Text>
-            <TextInput
-                style={styles.textInput}
-            />
+            <Comp1 />
+            <Comp2 />
+            <Comp3 />
+            <CompPadrao />
         </View>
     );
 }

@@ -22,5 +22,8 @@ const styles = StyleSheet.create({
         width: 300,  // Largura do TextInput
         paddingLeft: 10,  // Espaçamento interno
     },
+    ola: {
+        paddingTop: 10,
+    },
 });
 export default styles; 
