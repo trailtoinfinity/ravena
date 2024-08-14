@@ -2,7 +2,7 @@ import React from "react";
 import { Text, View, TextInput, StyleSheet, Image } from "react-native";
 
 const Ravena = () => {
-  const catName = 'RAVENA';
+  const catName = 'Ravena';
   return (
     <View style={styles.container}>
       <Image
