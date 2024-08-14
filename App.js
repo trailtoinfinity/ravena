@@ -6,7 +6,7 @@ const Ravena = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={{ uri: 'https://i.imgur.com/c3wR5Us.jpeg' }}
+        source={{ uri: 'https://i.imgur.com/asZfj5E.jpeg' }}
         style={styles.image}
       />
       <Text style={styles.text}>Essa é {catName}! Diga olá para {catName}!</Text>
