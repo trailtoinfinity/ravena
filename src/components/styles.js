@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         height: 40,
         borderColor: 'gray',
         borderWidth: 1,
-        width: '80%',  // Largura do TextInput
+        width: 300,  // Largura do TextInput
         paddingLeft: 10,  // Espaçamento interno
     },
 });
