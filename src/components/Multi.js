@@ -2,7 +2,7 @@ import { Image, Text, TextInput, View } from "react-native";
 import styles from "./styles";
 
 export default function Comp() {
-    return <Text style={styles.ola}>Olá!!!</Text>
+    return <Text style={styles.ola}>Olá Yanna!!!</Text>
 }
 
 export function Comp1() {

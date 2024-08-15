@@ -3,11 +3,12 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center',  // Centraliza verticalmente
+        backgroundColor: '#82e4ff',
+        justifyContent: 'center',  // Centraliza Em realçao ao Eixo Principal
         alignItems: 'center',      // Centraliza horizontalmente
     },
     image: {
-        width: 300, // Largura da imagem
+        width: 500, // Largura da imagem
         height: 400, // Altura da imagem
         marginBottom: 20, // Espaço entre a imagem e o texto
 
