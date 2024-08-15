@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',      // Centraliza horizontalmente
     },
     image: {
-        width: 500, // Largura da imagem
+        width: 300, // Largura da imagem
         height: 400, // Altura da imagem
         marginBottom: 20, // Espaço entre a imagem e o texto
 
@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
     textInput: {
         height: 40,
         borderColor: 'gray',
+        backgroundColor: 'white',
         borderWidth: 1,
         width: 300,  // Largura do TextInput
         paddingLeft: 10,  // Espaçamento interno
