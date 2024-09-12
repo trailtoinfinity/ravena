@@ -1,0 +1,19 @@
+{
+	"Componente padrao": {
+		"scope": "javascript",
+		"prefix": "compP",
+		"body": [
+			"import React from 'react'",
+			"import {Text, View} from 'react-native'",
+			"import styles from './styles';",
+			"export default (props) => {",
+			"    return(",
+			"        <>",
+			"",
+			"        </>",
+			"            )",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
